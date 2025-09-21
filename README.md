@@ -106,31 +106,24 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
-
+![Alt text](grep1.png)
 
 grep hello newfile 
 ## OUTPUT
-
-
-
+![Alt text](grep2.png)
 
 grep -v hello newfile 
 ## OUTPUT
-
+![Alt text](grep3.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
-
-
+![Alt text](grep4.png)
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-
-
+![Alt text](grep5.png)
 
 grep -R ubuntu /etc
 ## OUTPUT
