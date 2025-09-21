@@ -127,12 +127,11 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
+![Alt text](grep_ubentu.png)
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![Alt text](grep_world.png)
 
 cat < newfile 
 ```
