@@ -383,7 +383,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![Alt text](shell_script.png)
  
 cat << stop > herecheck.txt
 ```
@@ -395,7 +395,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![Alt text](herecheck.png)
 
 cat < scriptest.sh 
 ```bash
@@ -433,26 +433,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![Alt text](scriptest.png)
  
 ls file1
 ## OUTPUT
+![Alt text](ls_file1.png)
 
 echo $?
-## OUTPUT 
+## OUTPUT
+ ![Alt text](echo$.png)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+![Alt text](echo127.png)
  
 abcd
  
 echo $?
  ## OUTPUT
+![Alt text](abcd.png)
 
-
- 
 # mis-using string comparisons
 
 cat < strcomp.sh 
