@@ -485,14 +485,13 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
-
+![Alt text](strcompare.png)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+![Alt text](strcomp.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -519,6 +518,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![Alt text](psswd.png)
 
 # check if with file location
 cat>ifnested.sh 
@@ -565,7 +565,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![Alt text](ifnested.png)
 
 
 # using numeric test comparisons
