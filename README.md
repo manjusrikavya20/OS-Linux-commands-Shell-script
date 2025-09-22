@@ -816,6 +816,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![Alt text](forin1.png)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
