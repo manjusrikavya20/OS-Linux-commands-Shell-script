@@ -303,7 +303,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![Alt text](sort.png)
 
 cat > file22
 ```
@@ -316,13 +316,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![Alt text](uniq.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Alt text](upperlower.png)
 
 cat < urllist.txt
 ```
@@ -339,18 +340,16 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![Alt text](urllist1.png)
 
-
- 
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
-
+![Alt text](urllist2.png)
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![Alt text](tar1.png)
 
 mkdir backupdir
  
@@ -360,19 +359,21 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+![Alt text](backup.png)
 
 tar -xvf backup.tar
 ## OUTPUT
+![Alt text](tar_backup.png)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![Alt text](gz.png)
+
 gunzip backup.tar.gz
 ## OUTPUT
-
+![Alt text](gunzip.png)
  
 # Shell Script
 ```
